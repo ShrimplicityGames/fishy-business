@@ -1,0 +1,26 @@
+; Fishy Business - Godot 4.x
+config_version=5
+
+[application]
+config/name="Fishy Business"
+run/main_scene="res://scenes/main.tscn"
+
+[autoload]
+GameState="*res://scripts/game_state.gd"
+
+[display]
+window/size/viewport_width=430
+window/size/viewport_height=932
+window/size/window_width_override=430
+window/size/window_height_override=932
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[gui]
+theme/default_font_multichannel_signed_distance_field=true
